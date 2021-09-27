@@ -8,8 +8,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: #333;
     flex-direction: column;
     column-gap: 0;
     row-gap: 0;
@@ -20,9 +20,13 @@ body{
     font-size: 72px;
     padding-bottom: 0;
     margin-top: 0;
-
+    color: crimson;
+    font-weight: 900;
 }
 .hero p{
     margin-top: 0;
     padding-top: 0;
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: 700;
 }
