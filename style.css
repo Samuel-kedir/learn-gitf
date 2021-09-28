@@ -1,3 +1,6 @@
+html{
+    transition: ease-in-out .5s;
+}
 body{
     padding: 0;
     margin: 0;
@@ -29,4 +32,35 @@ body{
     font-size: x-large;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.mode {
+    transition: all .5s ease-in-out;
+    filter: invert(1);
+    background-color: #333;
+}
+
+#mode{
+    position: fixed;
+    right: 0;
+    margin: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: solid thin;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#light{
+    position: fixed;
+    right: 100px;
+    margin: 20px;
+    background-color: whitesmoke;
+    color: #333;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: solid thin;
+    border-radius: 5px;
+
 }
